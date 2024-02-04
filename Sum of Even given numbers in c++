@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int a,b,n;
+	n=1;
+	b=0;
+	cout<<"enter a number"<<endl;
+	cin>>a;
+
+	while(n<=a){
+        if(n%2 == 0){
+        b=b+n;
+        }
+      n++;
+	}
+
+	cout<<"the even sum of given number is:"<<b<<endl;
+}
